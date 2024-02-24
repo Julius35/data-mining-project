@@ -1,12 +1,28 @@
 # White Wine Quality Classification
-## Introduzione
-Questo progetto è stato sviluppato per il corso di Data Mining e ha l'obiettivo di classificare le preferenze riguardo al vino bianco, a partire da caratteristiche fisico-chimiche.
 
-## Descrizione del progetto
-La nostra analisi si propone di identificare quale tra le differenti tecniche di classificazione di data mining riesca nel migliore dei modi a modellare le preferenze di gusto relative al vino bianco, basandosi su dati analitici che sono semplicemente accessibili durante la fase di certificazione di qualsiasi vino. 
+## Project Overview
+This project explores classification techniques in data mining to model the taste preferences for white wine based on easily accessible analytical data during any wine's certification phase. The best-performing model in our analysis was the K-Nearest Neighbors (K-NN) trained on a balanced set, showing a commendable balance between sensitivity and specificity.
 
-Il modello K-NN allenato su set bilanciato fornisce risultati positivi, migliori che tutti gli altri testati.
+## Data
+The dataset titled "White Wine Quality" consists of 4989 observations of Vinho Verde wine variant physical-chemical characteristics from 2004 to 2007, including median taste preference scores from blind tasting sessions.
 
-Questo lavoro può essere utile per determinare quali prodotti possano essere ritenuti
-d’eccellenza, rispetto alla preferenze di gusto, in base a determinate caratteristiche
-fisico-chimiche.
+## Methodology
+- Preliminary data analysis for missing values, outliers, and variable distribution.
+- Classification models like K-Nearest Neighbors (K-NN), Logistic Regression, and Discriminant Analysis.
+- Downsampling technique to address class imbalance.
+- Performance evaluation using metrics like Accuracy, AUC, and Balanced Accuracy.
+
+## Results
+Our models achieved varying degrees of success, with the balanced K-NN model performing best in terms of balanced accuracy, indicating a successful classification of white wine quality.
+
+## How to Run
+1. Ensure R is installed on your system.
+2. Clone this repository.
+3. Run the `code.R` script to perform the analysis.
+
+## Authors
+- Julius Maliwat
+- Filippo Bianchini
+- Giacomo Rabuzzi
+- Andrea Robbiani
+
